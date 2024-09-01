@@ -111,6 +111,30 @@
       },
       "revId": "847670344b8861a763f53d6f17e67630d06a26f8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2252ac79_d13a6506",
+        "filename": "qcom/opensource/wlan/qcacld-3.0/core/mac/src/pe/lim/lim_api.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 4135,
+      "author": {
+        "id": 33840
+      },
+      "writtenOn": "2024-09-01T21:54:44Z",
+      "side": 1,
+      "message": "Confirmed that qca-wifi-host-cmn builds, boots, wifi working with merge that I mentioned earlier.\nSeems like qcom moved to those lnx branches???",
+      "parentUuid": "e8794bd5_3fb096be",
+      "range": {
+        "startLine": 4135,
+        "startChar": 2,
+        "endLine": 4135,
+        "endChar": 34
+      },
+      "revId": "847670344b8861a763f53d6f17e67630d06a26f8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
