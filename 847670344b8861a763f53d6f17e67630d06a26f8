@@ -39,6 +39,30 @@
       },
       "revId": "847670344b8861a763f53d6f17e67630d06a26f8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aac66e55_c33b4c6b",
+        "filename": "qcom/opensource/wlan/qcacld-3.0/core/mac/src/pe/lim/lim_api.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 4135,
+      "author": {
+        "id": 33840
+      },
+      "writtenOn": "2024-09-01T17:17:26Z",
+      "side": 1,
+      "message": "\u003e Can\u0027t find where this function is defined...\n\nI assume this is where it\u0027s defined \u0027wlan_qca-wifi-host-cmn\u0027\n\nhttps://github.com/search?q\u003drepo%3Axiaomi-8550-kernel%2Fvendor_qcom_opensource_wlan_qca-wifi-host-cmn%20wlan_cm_get_curr_candidate_entry\u0026type\u003dcode\n\nI\u0027ll check which tag is this in https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn",
+      "parentUuid": "5c440d93_1776548b",
+      "range": {
+        "startLine": 4135,
+        "startChar": 2,
+        "endLine": 4135,
+        "endChar": 34
+      },
+      "revId": "847670344b8861a763f53d6f17e67630d06a26f8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
