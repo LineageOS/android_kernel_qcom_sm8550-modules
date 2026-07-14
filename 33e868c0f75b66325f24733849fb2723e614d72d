@@ -16,6 +16,24 @@
       "message": "I was not hitting this issue. Please +V yourself.",
       "revId": "33e868c0f75b66325f24733849fb2723e614d72d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b4d7d4db_98eebc94",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32811
+      },
+      "writtenOn": "2026-07-14T06:00:31Z",
+      "side": 1,
+      "message": "Without this commit, the following error happens.\n\n```\nmake: Entering directory \u0027/sauce/los/kernel/oneplus/sm8550-modules/qcom/opensource/camera-kernel\u0027\necho \u0027#define CAMERA_COMPILE_TIME \"Tue Jul 14 11:25:26 IST 2026\"\u0027 \u003e cam_generated_h\nmake: Leaving directory \u0027/sauce/los/kernel/oneplus/sm8550-modules/qcom/opensource/camera-kernel\u0027\nstderr:\n/sauce/los/kernel/oneplus/sm8550/drivers/power/oplus/v2/scripts/ic_cfg_parse.py:395: SyntaxWarning: invalid escape sequence \u0027\\.\u0027\n  match \u003d re.match(\"V[0-9]+\\.[0-9]+:[0-9]+:[0-9a-f]+\", version, flags\u003d0)\n/sauce/los/kernel/oneplus/sm8550/drivers/power/oplus/v2/scripts/ic_cfg_parse.py:696: SyntaxWarning: invalid escape sequence \u0027\\[\u0027\n  match \u003d re.search(\"\\[\\]\", type, flags\u003d0)\n/sauce/los/kernel/oneplus/sm8550/drivers/power/oplus/v2/scripts/ic_cfg_parse.py:701: SyntaxWarning: invalid escape sequence \u0027\\*\u0027\n  match \u003d re.search(\"\\*\", type, flags\u003d0)\n/sauce/los/kernel/oneplus/sm8550/drivers/power/oplus/v2/scripts/ic_cfg_parse.py:395: SyntaxWarning: invalid escape sequence \u0027\\.\u0027\n  match \u003d re.match(\"V[0-9]+\\.[0-9]+:[0-9]+:[0-9a-f]+\", version, flags\u003d0)\n/sauce/los/kernel/oneplus/sm8550/drivers/power/oplus/v2/scripts/ic_cfg_parse.py:696: SyntaxWarning: invalid escape sequence \u0027\\[\u0027\n  match \u003d re.search(\"\\[\\]\", type, flags\u003d0)\n/sauce/los/kernel/oneplus/sm8550/drivers/power/oplus/v2/scripts/ic_cfg_parse.py:701: SyntaxWarning: invalid escape sequence \u0027\\*\u0027\n  match \u003d re.search(\"\\*\", type, flags\u003d0)\n/sauce/los/kernel/oneplus/sm8550/drivers/power/oplus/v2/scripts/ic_cfg_parse.py:395: SyntaxWarning: invalid escape sequence \u0027\\.\u0027\n  match \u003d re.match(\"V[0-9]+\\.[0-9]+:[0-9]+:[0-9a-f]+\", version, flags\u003d0)\n/sauce/los/kernel/oneplus/sm8550/drivers/power/oplus/v2/scripts/ic_cfg_parse.py:395: SyntaxWarning: invalid escape sequence \u0027\\.\u0027\n  match \u003d re.match(\"V[0-9]+\\.[0-9]+:[0-9]+:[0-9a-f]+\", version, flags\u003d0)\n/sauce/los/kernel/oneplus/sm8550/drivers/power/oplus/v2/scripts/ic_cfg_parse.py:696: SyntaxWarning: invalid escape sequence \u0027\\[\u0027\n  match \u003d re.search(\"\\[\\]\", type, flags\u003d0)\n/sauce/los/kernel/oneplus/sm8550/drivers/power/oplus/v2/scripts/ic_cfg_parse.py:701: SyntaxWarning: invalid escape sequence \u0027\\*\u0027\n  match \u003d re.search(\"\\*\", type, flags\u003d0)\n/sauce/los/kernel/oneplus/sm8550/drivers/power/oplus/v2/scripts/ic_cfg_parse.py:696: SyntaxWarning: invalid escape sequence \u0027\\[\u0027\n  match \u003d re.search(\"\\[\\]\", type, flags\u003d0)\n/sauce/los/kernel/oneplus/sm8550/drivers/power/oplus/v2/scripts/ic_cfg_parse.py:701: SyntaxWarning: invalid escape sequence \u0027\\*\u0027\n  match \u003d re.search(\"\\*\", type, flags\u003d0)\n/sauce/los/kernel/oneplus/sm8550/../sm8550-modules/qcom/opensource/audio-kernel/oplus/Kbuild:1: \"AUDIO_ROOT value is /sauce/los/kernel/oneplus/sm8550/../sm8550-modules/qcom/opensource/audio-kernel\"\n/bin/sh: line 1: cam_generated_h: Read-only file system\nmake: *** [Makefile:16: cam_generated_h] Error 1\nWrite to a read-only file system detected. Possible fixes include\n1. Generate file directly to out/ which is ReadWrite, #recommend solution\n2. BUILD_BROKEN_SRC_DIR_RW_ALLOWLIST :\u003d \u003cmy/path/1\u003e \u003cmy/path/2\u003e #discouraged, subset of source tree will be RW\n3. BUILD_BROKEN_SRC_DIR_IS_WRITABLE :\u003d true #highly discouraged, entire source tree will be RW\nFAILED: ninja: \n1m33.83s Build Failure: 5 done, 1 failed, 3 remaining - 0.05/s\n cannot make progress due to previous 1 errors: exit\u003d2\nwarning: ninja: see ./out/siso_output for full command line and output\n or ./out/siso.INFO\nuse ./out/siso_failed_commands.sh to re-run failed commands\n11:25:28 ninja failed with: exit status 1\n\n#### failed to build some targets (02:59 (mm:ss)) ####\n```",
+      "parentUuid": "659f2dca_49cf73e7",
+      "revId": "33e868c0f75b66325f24733849fb2723e614d72d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
