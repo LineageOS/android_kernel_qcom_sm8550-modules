@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ea134e6_124b2cff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-08-06T21:51:20Z",
+      "side": 1,
+      "message": "sm8550-modules/qcom/opensource/graphics-kernel/kgsl_regmap.c:101:7: error: implicit declaration of function \u0027kgsl_regmap_in_range\u0027 [-Werror,-Wimplicit-function-declaration]",
+      "revId": "7786fbfae3902c7aa79864ec07be366a599554c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
